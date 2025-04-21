@@ -24,7 +24,7 @@ export default function Contact() {
         marginBottom: '1rem',
         zIndex: 1
       }}>
-        Let's Connect ☄️
+        Let &apos;s Connect ☄️
       </h1>
 
       <p style={{

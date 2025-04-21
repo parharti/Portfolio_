@@ -73,12 +73,6 @@ export default function SolarSystem3D() {
     setIsClient(true)
   }, [])
 
-  const handlePlanetClick = (page: string) => {
-    if (isClient) {
-      router.push(`/${page.toLowerCase()}`)
-    }
-  }
-
   return (
     <div
       style={{

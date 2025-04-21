@@ -34,7 +34,7 @@ export default function ResearchWithStars() {
           <li>Developed a real-time lightning prediction system using NASA’s MERRA-2 and LDS datasets (~10+ TB).</li>
           <li>Trained a Random Forest model reaching 89.3% classification accuracy.</li>
           <li>Work executed during internship at ISRO under Dr. Vinod Kumar Sharma.</li>
-          <li>Created India's first lightning prediction portal using remote sensing data.</li>
+          <li>Created India &apos;s first lightning prediction portal using remote sensing data.</li>
         </ul>
 
         <p style={{ marginTop: '1.2rem', fontStyle: 'italic', fontSize: '1rem' }}>
