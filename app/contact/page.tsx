@@ -35,7 +35,8 @@ export default function Contact() {
         zIndex: 1
       }}>
         Whether you want to collaborate on a stellar project, chat about cosmic ideas,
-        or just say hi — my inbox is always open. Don’t hesitate to reach out!
+        or just say hi — my inbox is always open. Don&apos;t hesitate to reach out!
+
       </p>
 
       <div style={{
