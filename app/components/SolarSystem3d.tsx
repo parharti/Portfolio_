@@ -1,9 +1,8 @@
 'use client'
 
-import React, { useRef, useState, useEffect } from 'react'
+import React, { useRef } from 'react'
 import { Canvas, useFrame } from '@react-three/fiber'
 import { OrbitControls, Stars, Html } from '@react-three/drei'
-import { useRouter } from 'next/navigation'
 import * as THREE from 'three'
 
 type PlanetProps = {
