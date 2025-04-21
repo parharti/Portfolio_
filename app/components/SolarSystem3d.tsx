@@ -66,12 +66,7 @@ const Planet = ({
 }
 
 export default function SolarSystem3D() {
-  const [isClient, setIsClient] = useState(false)
-  const router = useRouter()
 
-  useEffect(() => {
-    setIsClient(true)
-  }, [])
 
   return (
     <div
