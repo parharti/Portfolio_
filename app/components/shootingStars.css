@@ -1,0 +1,30 @@
+.stars-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.shooting-star {
+    position: absolute;
+    top: -10px;  /* Start just above the screen */
+    left: 50%;
+    width: 4px;
+    height: 100px;
+    background: linear-gradient(45deg, rgb(228, 226, 185), transparent);
+    opacity: 0;
+    transform: rotate(45deg);
+    animation: shoot 4s linear infinite;
+}
+
+@keyframes shoot {
+    0% {
+        transform: translateX(0) translateY(0) rotate(45deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(-100vw) translateY(100vh) rotate(45deg);
+        opacity: 0;
+    }
+}
