@@ -73,7 +73,18 @@ export default function Projects() {
           </ul>
         </section>
 
-        {/* SunPy */}
+        {/* ISRO SAC */}
+        <section style={{ width: '100%' }}>
+          <h2 style={{ color: '#66fcf1' }}>ISRO – SAC Ahmedabad</h2>
+          <p><strong>Intern</strong> – Under Sri Santosh Kumar Tripathi</p>
+          <p>June 2025 – Present</p>
+          <ul>
+            <li><strong>INSAT Satellite Data Compression:</strong> Researching spectral and spatial correlation techniques for compressing multi-band satellite data (VIS, SWIR, TIR, WV)</li>
+            <li>Developing custom deep learning model for 4-band input with variable spatial resolution</li>
+            <li>Improving compression efficiency using autocorrelation and frequency-domain transforms (Fourier, DCT)</li>
+          </ul>
+        </section>
+         {/* SunPy */}
         <section style={{ width: '100%' }}>
           <h2 style={{ color: '#66fcf1' }}>SunPy (Open-Source Contribution)</h2>
           <p><strong>Contributor</strong> – Solar Chromosphere Modeling</p>
@@ -95,17 +106,16 @@ export default function Projects() {
           </ul>
           <p><a href="https://github.com/parhrti" target="_blank" style={{ color: '#66fcf1' }}>[GitHub]</a></p>
         </section>
-
-        {/* ISRO SAC */}
+        {/* ISRO */}
         <section style={{ width: '100%' }}>
-          <h2 style={{ color: '#66fcf1' }}>ISRO – SAC Ahmedabad</h2>
-          <p><strong>Intern</strong> – Under Sri Santosh Kumar Tripathi</p>
-          <p>June 2025 – Present</p>
+          <h2 style={{ color: '#66fcf1' }}>ISRO – RRSC North</h2>
+          <p><strong>Intern</strong> – Under Dr. Vinod Kumar Sharma</p>
+          <p>Jan 2025 – Present</p>
           <ul>
-            <li><strong>INSAT Satellite Data Compression:</strong> Researching spectral and spatial correlation techniques for compressing multi-band satellite data (VIS, SWIR, TIR, WV)</li>
-            <li>Developing custom deep learning model for 4-band input with variable spatial resolution</li>
-            <li>Improving compression efficiency using autocorrelation and frequency-domain transforms (Fourier, DCT)</li>
+            <li><strong>Real-Time Cyclone Monitoring System</strong>: 50% latency reduction with PostgreSQL backend</li>
+            <li><strong>Lightning Prediction</strong>: Trained ML model with 89.3% accuracy on fused LDS/MERRA-2 data</li>
           </ul>
+          <p><a href="https://drive.google.com/file/d/18e9nUkHn9IL-RRSO2Odsaef-AOiy89_h/view?usp=sharing" target="_blank" style={{ color: '#66fcf1' }}>[Certificate]</a></p>
         </section>
 
         {/* NOTATMRP */}
@@ -127,6 +137,7 @@ export default function Projects() {
             <li>Field tested across 5 live deployments</li>
           </ul>
         </section>
+        
 
         {/* Portfolio Site */}
         <section style={{ width: '100%' }}>
