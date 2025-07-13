@@ -38,8 +38,8 @@ export default function ResearchWithStars() {
         </ul>
 
         <p style={{ marginTop: '1.2rem', fontStyle: 'italic', fontSize: '1rem' }}>
-          📄 <a href="https://drive.google.com/file/d/1BJMYdKUEd6ZqvKCCkEvmvGhVi4MxsweJ/view?usp=sharing" target="_blank" style={{ color: '#66fcf1' }}>
-            View Publication / Certificate
+          📄 <a href="https://doi.org/10.58825/jog.2025.19.1.183" target="_blank" style={{ color: '#66fcf1' }}>
+            View Publication
           </a>
         </p>
       </div>
